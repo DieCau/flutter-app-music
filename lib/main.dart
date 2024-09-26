@@ -1,6 +1,6 @@
+import 'package:app_music/shared/database_service/database_services.dart';
 import 'package:flutter/material.dart';
-import 'package:music_app/main/my_app.dart';
-import 'package:music_app/shared/database_service/databse_services.dart';
+import 'package:app_music/main/my_app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
