@@ -1,4 +1,4 @@
-import 'package:music_app/features/artist/data/network/models/artist/artist_response_db_model.dart';
+import 'package:app_music/features/artist/data/network/models/artist/artist_response_db_model.dart';
 
 class ArtistEntity {
   final int id;

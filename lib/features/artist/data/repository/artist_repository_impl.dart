@@ -1,7 +1,7 @@
-import 'package:music_app/features/artist/data/network/datasource_artist_ntw/datasource_artist_ntw.dart';
-import 'package:music_app/features/artist/domain/entities/artist/artist_entity.dart';
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
-import 'package:music_app/features/artist/domain/rositories/artist_repository.dart';
+import 'package:app_music/features/artist/data/network/datasource_artist_ntw/datasource_artist_ntw.dart';
+import 'package:app_music/features/artist/domain/entities/artist/artist_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
+import 'package:app_music/features/artist/domain/repositories/artist_respository.dart';
 
 class ArtistRepositoryImpl extends ArtistRepository {
   final DatasourceArtistNtw datasourceArtistNtw;

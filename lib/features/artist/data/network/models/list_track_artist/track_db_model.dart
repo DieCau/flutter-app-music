@@ -1,6 +1,6 @@
-import 'package:music_app/features/artist/data/network/models/list_track_artist/album_db_model.dart';
-import 'package:music_app/features/artist/data/network/models/list_track_artist/artist_db_model.dart';
-import 'package:music_app/features/artist/data/network/models/list_track_artist/contributor_db_model.dart';
+import 'package:app_music/features/artist/data/network/models/list_track_artist/album_db_model.dart';
+import 'package:app_music/features/artist/data/network/models/list_track_artist/artist_db_model.dart';
+import 'package:app_music/features/artist/data/network/models/list_track_artist/contributor_db_model.dart';
 
 class ArtisTrackDb {
   final int id;
