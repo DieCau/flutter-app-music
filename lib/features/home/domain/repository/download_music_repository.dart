@@ -1,4 +1,4 @@
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
 
 abstract class DownloadMusicRepository {
   Future<List<MusicLocalDb>> getAllMusicDownload();

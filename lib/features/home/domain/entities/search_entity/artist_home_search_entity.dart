@@ -1,4 +1,4 @@
-import 'package:music_app/features/home/data/network/model/search_model/artist_model_db.dart';
+import 'package:app_music/features/home/data/network/model/search_model/artist_model_db.dart';
 
 class ArtistHomeEntity {
   final int id;

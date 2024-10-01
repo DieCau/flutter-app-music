@@ -1,4 +1,4 @@
-import 'package:music_app/features/home/domain/entites/recent_entity/recent_home_entity.dart';
+import 'package:app_music/features/home/domain/entities/recent_entity/recent_home_entity.dart';
 
 abstract class PlayListHomeRepository {
   Future<List<RecentListHomeEntity>> fetchPlayListHome();

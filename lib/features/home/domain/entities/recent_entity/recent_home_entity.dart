@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:music_app/features/home/data/network/model/playlist_model/playlist_model_db.dart';
+import 'package:app_music/features/home/data/network/model/playlist_model/playlist_model_db.dart';
 
 class RecentListHomeEntity extends Equatable {
   final int id;
