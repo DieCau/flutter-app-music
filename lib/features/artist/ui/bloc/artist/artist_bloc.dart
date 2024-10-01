@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:app_music/features/artist/domain/entities/artist/artist_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
+import 'package:app_music/features/artist/domain/repositories/artist_respository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:music_app/features/artist/domain/entities/artist/artist_entity.dart';
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
-import 'package:music_app/features/artist/domain/rositories/artist_repository.dart';
 
 part 'artist_event.dart';
 part 'artist_state.dart';

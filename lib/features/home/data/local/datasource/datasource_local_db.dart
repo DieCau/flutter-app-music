@@ -1,6 +1,6 @@
+import 'package:app_music/shared/database_service/dao/music_dao.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
 import 'package:dio/dio.dart';
-import 'package:music_app/shared/database_service/dao/music_dao.dart';
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 

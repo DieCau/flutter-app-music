@@ -1,9 +1,10 @@
+import 'package:app_music/features/artist/ui/bloc/artist/artist_bloc.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/entity_global/track_global_entity.dart';
+import 'package:app_music/shared/widgets/item_music_widget.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/artist/ui/bloc/artist/artist_bloc.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/entity_global/track_global_entity.dart';
-import 'package:music_app/shared/widgets/item_music_widget.dart';
+
 
 class ArtistSliverList extends StatelessWidget {
   const ArtistSliverList({

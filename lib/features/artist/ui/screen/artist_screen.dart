@@ -1,11 +1,11 @@
+import 'package:app_music/features/artist/ui/bloc/artist/artist_bloc.dart';
+import 'package:app_music/features/artist/ui/widgets/artist_sliverappbar_widget.dart';
+import 'package:app_music/features/artist/ui/widgets/artist_sliverlist_widget.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/widgets/mini_reproductor_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/artist/ui/bloc/artist/artist_bloc.dart';
-import 'package:music_app/features/artist/ui/widgets/artist_sliverappbar_widget.dart';
-import 'package:music_app/features/artist/ui/widgets/artist_sliverlist_widget.dart';
-import 'package:music_app/features/playslist/ui/widgets/sliver_list_loading_widget.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/widgets/mini_reproducto_widget.dart';
+
 
 class ArtistScreen extends StatelessWidget {
   static const name = "artist_screen";
