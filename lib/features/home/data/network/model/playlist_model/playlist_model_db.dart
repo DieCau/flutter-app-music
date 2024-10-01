@@ -1,5 +1,5 @@
-import 'package:music_app/features/home/data/network/model/playlist_model/creator_model_db.dart';
-import 'package:music_app/features/home/data/network/model/playlist_model/track_model_db.dart';
+import 'package:app_music/features/home/data/network/model/playlist_model/creator_model_db.dart';
+import 'package:app_music/features/home/data/network/model/playlist_model/track_model_db.dart';
 
 class PlayListModelDb {
   final int id;
