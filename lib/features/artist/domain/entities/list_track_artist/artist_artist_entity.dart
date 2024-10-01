@@ -1,4 +1,4 @@
-import 'package:music_app/features/artist/data/network/models/list_track_artist/artist_db_model.dart';
+import 'package:app_music/features/artist/data/network/models/list_track_artist/artist_db_model.dart';
 
 class ArtisArtisEntity {
   final int id;

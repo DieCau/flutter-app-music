@@ -1,7 +1,7 @@
-import 'package:music_app/features/artist/data/network/models/list_track_artist/track_db_model.dart';
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_album_entity.dart';
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_artist_entity.dart';
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_contributors_entity.dart';
+import 'package:app_music/features/artist/data/network/models/list_track_artist/track_db_model.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_album_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_artist_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_contributors_entity.dart';
 
 class ArtistTracksEntity {
   final int id;
