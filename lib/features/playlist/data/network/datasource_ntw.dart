@@ -12,7 +12,7 @@ class DatasourcePlayListNtwDb {
       final model = PlayListModelDb.fromJson(responseMap);
       return model;
     } catch (e) {
-      throw Exception('Failed to fetch playlist: $e');
+      throw Exception('No se pudo obtener Playlist: $e');
     }
   }
 }

@@ -1,6 +1,7 @@
+import 'package:dio/dio.dart';
+
 import 'package:app_music/features/artist/data/network/models/artist/artist_response_db_model.dart';
 import 'package:app_music/features/artist/data/network/models/list_track_artist/artist_db_response.dart';
-import 'package:dio/dio.dart';
 
 class DatasourceArtistNtw {
   final dio = Dio();
@@ -13,10 +14,10 @@ class DatasourceArtistNtw {
         final model = ArtistDbResponseModel.fromJson(data);
         return model;
       } else {
-        throw Exception('Failed to load artist data, status code: ${response.statusCode}');
+        throw Exception('Error al cargar los datos del artista, Codigo: ${response.statusCode}');
       }
     } catch (e) {
-      throw Exception('Error fetching artist data: $e');
+      throw Exception('Error al obtener los datos del artista: $e');
     }
   }
 
@@ -27,7 +28,7 @@ class DatasourceArtistNtw {
       final model = ArtistResponseDbModel.fromJson(responseMap);
       return model;
     } catch (e) {
-      throw Exception('Error fetching artist data: $e');
+      throw Exception('Error al obtener los datos del artista: $e');
     }
   }
 }

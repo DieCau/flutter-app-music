@@ -59,6 +59,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
         routerConfig: appRoutes,
         title: 'App Music',
         theme: darkTheme,

@@ -19,7 +19,7 @@ class SearchWidget extends StatelessWidget {
         context.read<SearchBloc>().add(SearchMusicEvent(request: value));
       },
       decoration: InputDecoration(
-        hintText: 'Search song, playslist, artisr...',
+        hintText: 'Buscar canción, artista...',
         hintStyle: textTheme.displayMedium,
         contentPadding: const EdgeInsets.symmetric(vertical: 15),
         filled: true,

@@ -1,7 +1,8 @@
+import 'package:equatable/equatable.dart';
+
 import 'package:app_music/features/home/data/network/model/search_model/data_model_db.dart';
 import 'package:app_music/features/home/domain/entities/search_entity/album_home_search_entity.dart';
 import 'package:app_music/features/home/domain/entities/search_entity/artist_home_search_entity.dart';
-import 'package:equatable/equatable.dart';
 
 class SearchHomeEntity extends Equatable {
   final int id;

@@ -5,8 +5,8 @@ class SectionModel {
 }
 
 final List<SectionModel> sectionList = [
-  SectionModel(name: 'Recent'),
-  SectionModel(name: 'Download'),
+  SectionModel(name: 'Reciente'),
+  SectionModel(name: 'Descargas'),
   SectionModel(name: 'Chill'),
   SectionModel(name: 'R&B'),
   SectionModel(name: 'Festival'),

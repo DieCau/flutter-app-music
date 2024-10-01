@@ -8,7 +8,7 @@ class DatabaseService {
   Database? _db;
   Database get db {
     if (_db == null) {
-      throw Exception("Database not initialized");
+      throw Exception("BD no inicializada");
     }
     return _db!;
   }

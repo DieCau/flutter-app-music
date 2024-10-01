@@ -1,10 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'package:app_music/features/home/ui/bloc/favorite_music/favorite_music_bloc.dart';
 import 'package:app_music/features/home/ui/bloc/home/home_bloc.dart';
 import 'package:app_music/features/home/ui/widgets/playlist_widget.dart';
 import 'package:app_music/features/home/ui/widgets/yourfavorite_widget.dart';
 import 'package:app_music/shared/bloc/player/player_bloc.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 class RecentPage extends StatelessWidget {
   const RecentPage({

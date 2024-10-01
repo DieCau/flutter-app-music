@@ -18,8 +18,8 @@ class SplashScreen extends StatelessWidget {
         width: size.width,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            begin: Alignment.bottomCenter,
-            end: Alignment.topCenter,
+            begin: Alignment.bottomLeft,
+            end: Alignment.topRight,
             colors: [
               AppColors.black,
               AppColors.black,
@@ -36,12 +36,12 @@ class SplashScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Text(
-                "Feel the beat",
+                "Siente el ritmo",
                 style: textTheme.bodyMedium,
               ),
               const SizedBox(height: 20),
               Text(
-                "Emmerse yourseft into the\n world of music today",
+                "Sumergete en el\n mundo de la música hoy",
                 style: textTheme.displayMedium,
                 textAlign: TextAlign.center,
               ),
@@ -64,7 +64,7 @@ class SplashScreen extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Text(
-                      "Continue",
+                      "Continuar",
                       style: textTheme.displayLarge,
                     ),
                     ClipRRect(

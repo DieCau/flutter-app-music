@@ -21,7 +21,7 @@ class YourFavoriteWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            "Your favorites",
+            "Favoritos",
             style: textTheme.displayLarge!.copyWith(
               fontSize: 18,
             ),
@@ -34,7 +34,7 @@ class YourFavoriteWidget extends StatelessWidget {
                   return const SliverListLoadingWidget();
                 } else if (state.status == FavoriteMusicStatus.sucess) {
                   if (state.favoriteListMusic.isEmpty) {
-                    return const Center(child: Text("Empty List"));
+                    return const Center(child: Text("Lista vacía"));
                   } else {
                     final trackList = state.favoriteListMusic;
 

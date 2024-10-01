@@ -25,11 +25,11 @@ class AppbarHomeWidget extends StatelessWidget implements PreferredSizeWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Welcome back!",
+                "Bienvenido de Nuevo!",
                 style: textTheme.bodyMedium,
               ),
               Text(
-                "What do you feel like today?",
+                "Cómo te sientes hoy?",
                 style: textTheme.displayMedium,
               )
             ],

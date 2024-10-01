@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CustomSearch extends SearchDelegate {
   @override
-  String get searchFieldLabel => "Search music, artist, alb...";
+  String get searchFieldLabel => "Busca musica, artista, alb...";
   @override
   List<Widget>? buildActions(BuildContext context) {
     return [
@@ -44,7 +44,7 @@ class CustomSearch extends SearchDelegate {
         } else if (state.status == SearchStatus.error) {
           return const Center(child: Text('Error'));
         } else {
-          return const Center(child: Text('No results found.'));
+          return const Center(child: Text('Resultado No Encontrado'));
         }
       },
     );
@@ -69,7 +69,7 @@ class CustomSearch extends SearchDelegate {
         } else if (state.status == SearchStatus.error) {
           return const Center(child: Text('Error'));
         } else {
-          return const Center(child: Text('No results found.'));
+          return const Center(child: Text('Resultado No Encontrado'));
         }
       },
     );
