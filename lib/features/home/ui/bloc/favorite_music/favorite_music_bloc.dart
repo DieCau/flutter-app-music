@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:app_music/features/home/domain/entities/favority_entity/your_favorite_music_entity.dart';
+import 'package:app_music/features/home/domain/repository/favorite_music_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:music_app/features/home/domain/entites/favority_entity/your_favorite_music_entity.dart';
-import 'package:music_app/features/home/domain/repository/favorite_music_repository.dart';
 
 part 'favorite_music_event.dart';
 part 'favorite_music_state.dart';

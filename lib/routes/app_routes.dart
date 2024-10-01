@@ -1,8 +1,5 @@
+import 'package:app_music/features/splash/ui/splash_screen.dart';
 import 'package:go_router/go_router.dart';
-import 'package:music_app/features/artist/ui/screen/artist_screen.dart';
-import 'package:music_app/features/home/ui/screen/home_screen.dart';
-import 'package:music_app/features/playslist/ui/screen/playslist_screen.dart';
-import 'package:music_app/features/splash/ui/screen/splahs_screen.dart';
 
 final appRoutes = GoRouter(
   initialLocation: '/',

@@ -1,8 +1,8 @@
 import 'dart:async';
+import 'package:app_music/features/home/domain/repository/download_music_repository.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:music_app/features/home/domain/repository/download_music_repository.dart';
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
 
 part 'download_event.dart';
 part 'download_state.dart';
