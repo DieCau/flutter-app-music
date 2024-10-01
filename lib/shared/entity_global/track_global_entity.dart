@@ -1,9 +1,9 @@
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
-import 'package:music_app/features/home/domain/entites/favority_entity/your_favorite_music_entity.dart';
-import 'package:music_app/features/home/domain/entites/search_entity/search_home_search_entity.dart';
-import 'package:music_app/features/playslist/domain/entities/track_entity.dart';
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
-import 'package:music_app/shared/entity_global/artist_gobal_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_tracks_entity.dart';
+import 'package:app_music/features/home/domain/entities/favority_entity/your_favorite_music_entity.dart';
+import 'package:app_music/features/home/domain/entities/search_entity/search_home_search_entity.dart';
+import 'package:app_music/features/playlist/domain/entities/track_entity.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
+import 'package:app_music/shared/entity_global/artist_global_entity.dart';
 
 class TrackGloablEntity {
   final int id;

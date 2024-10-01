@@ -1,19 +1,21 @@
-import 'dart:io';
-import 'dart:ui';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:music_app/features/artist/ui/bloc/artist/artist_bloc.dart';
-import 'package:music_app/features/artist/ui/screen/artist_screen.dart';
-import 'package:music_app/features/home/ui/bloc/download/download_bloc.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/const/app_color.dart';
-import 'package:music_app/shared/const/svg_icon.dart';
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
-import 'package:music_app/shared/widgets/linear_loading_widget.dart';
 import 'package:shimmer/shimmer.dart';
+import 'dart:io';
+import 'dart:ui';
+
+import 'package:app_music/features/artist/ui/bloc/artist/artist_bloc.dart';
+import 'package:app_music/features/artist/ui/screen/artist_screen.dart';
+import 'package:app_music/features/home/ui/bloc/download/download_bloc.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/constants/svg_icons.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
+import 'package:app_music/shared/widgets/linear_loading_widget.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+
 
 class ShowModalMusic extends StatelessWidget {
   const ShowModalMusic({

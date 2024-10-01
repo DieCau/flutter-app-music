@@ -1,5 +1,5 @@
-import 'package:music_app/features/artist/domain/entities/list_track_artist/artist_artist_entity.dart';
-import 'package:music_app/features/home/domain/entites/search_entity/artist_home_search_entity.dart';
+import 'package:app_music/features/artist/domain/entities/list_track_artist/artist_artist_entity.dart';
+import 'package:app_music/features/home/domain/entities/search_entity/artist_home_search_entity.dart';
 
 class ArtistGlobalEntity {
   final int id;

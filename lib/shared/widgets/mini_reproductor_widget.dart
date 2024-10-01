@@ -1,12 +1,12 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/modal/show_music_modal.dart';
-import 'package:music_app/shared/const/app_color.dart';
-import 'package:music_app/shared/const/svg_icon.dart';
+
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/constants/svg_icons.dart';
+import 'package:app_music/shared/modal/show_music_modal.dart';
 
 class MiniReproductorWidget extends StatelessWidget {
   const MiniReproductorWidget({

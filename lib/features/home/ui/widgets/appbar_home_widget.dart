@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:music_app/features/home/ui/delegate/search_music_delegate.dart';
-import 'package:music_app/shared/const/app_color.dart';
-import 'package:music_app/shared/const/svg_icon.dart';
+
+import 'package:app_music/features/home/ui/delegate/search_music_delegate.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/constants/svg_icons.dart';
 
 class AppbarHomeWidget extends StatelessWidget implements PreferredSizeWidget {
   const AppbarHomeWidget({

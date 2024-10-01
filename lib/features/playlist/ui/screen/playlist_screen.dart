@@ -1,13 +1,13 @@
+import 'package:app_music/features/playlist/data/network/datasource_ntw.dart';
+import 'package:app_music/features/playlist/data/repository/play_list_screen_repository_impl.dart';
+import 'package:app_music/features/playlist/ui/bloc/play_list/playlist_bloc.dart';
+import 'package:app_music/features/playlist/ui/widgets/sliveappbar_widget.dart';
+import 'package:app_music/features/playlist/ui/widgets/sliverlist_widget.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/widgets/mini_reproductor_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/playslist/data/network/datasource/datasource_ntw.dart';
-import 'package:music_app/features/playslist/data/repository/play_list_screen_repository_impl.dart';
-import 'package:music_app/features/playslist/ui/bloc/play_list/playlist_bloc.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/widgets/mini_reproducto_widget.dart';
-import 'package:music_app/features/playslist/ui/widgets/sliverappbar_widged.dart';
-import 'package:music_app/features/playslist/ui/widgets/sliverlist_widget.dart';
-import 'package:music_app/shared/const/app_color.dart';
 
 class PlaysListScreen extends StatelessWidget {
   static const name = "playslist_screen";

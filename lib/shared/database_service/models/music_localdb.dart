@@ -1,5 +1,5 @@
+import 'package:app_music/shared/entity_global/track_global_entity.dart';
 import 'package:equatable/equatable.dart';
-import 'package:music_app/shared/entity_global/track_global_entity.dart';
 
 class MusicLocalDb extends Equatable {
   final int id;

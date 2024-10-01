@@ -1,6 +1,7 @@
-import 'package:music_app/shared/database_service/databse_services.dart';
-import 'package:music_app/shared/database_service/models/music_localdb.dart';
 import 'package:sqflite/sqflite.dart';
+
+import 'package:app_music/shared/database_service/database_services.dart';
+import 'package:app_music/shared/database_service/models/music_localdb.dart';
 
 class MusicDao {
   final database = DatabaseService.instance.db;

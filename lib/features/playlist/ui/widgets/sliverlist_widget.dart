@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/playslist/ui/bloc/play_list/playlist_bloc.dart';
-import 'package:music_app/features/playslist/ui/widgets/sliver_list_loading_widget.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/entity_global/track_global_entity.dart';
-import 'package:music_app/shared/widgets/item_music_widget.dart';
+
+import 'package:app_music/features/playlist/ui/bloc/play_list/playlist_bloc.dart';
+import 'package:app_music/features/playlist/ui/widgets/sliver_list_loading_widget.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/entity_global/track_global_entity.dart';
+import 'package:app_music/shared/widgets/item_music_widget.dart';
+
 
 class SliverListWidget extends StatefulWidget {
   const SliverListWidget({

@@ -1,10 +1,13 @@
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_svg/svg.dart';
+
 import 'package:app_music/features/artist/ui/bloc/artist/artist_bloc.dart';
+import 'package:app_music/features/playlist/ui/widgets/sliveappbar_widget.dart';
 import 'package:app_music/shared/bloc/player/player_bloc.dart';
 import 'package:app_music/shared/constants/svg_icons.dart';
 import 'package:app_music/shared/entity_global/track_global_entity.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/svg.dart';
 
 
 class ArtistSliverAppbarWidget extends StatelessWidget {

@@ -1,6 +1,7 @@
 import 'package:app_music/features/artist/ui/bloc/artist/artist_bloc.dart';
 import 'package:app_music/features/artist/ui/widgets/artist_sliverappbar_widget.dart';
 import 'package:app_music/features/artist/ui/widgets/artist_sliverlist_widget.dart';
+import 'package:app_music/features/playlist/ui/widgets/sliver_list_loading_widget.dart';
 import 'package:app_music/shared/bloc/player/player_bloc.dart';
 import 'package:app_music/shared/widgets/mini_reproductor_widget.dart';
 import 'package:flutter/material.dart';

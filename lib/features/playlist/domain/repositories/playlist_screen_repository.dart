@@ -1,4 +1,4 @@
-import 'package:music_app/features/playslist/domain/entities/playlist_entity.dart';
+import 'package:app_music/features/playlist/domain/entities/playlist_entity.dart';
 
 abstract class PlaylistScreenRepository {
   Future<PlayListEntity> fetPlayList();

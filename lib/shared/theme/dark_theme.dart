@@ -1,5 +1,5 @@
+import 'package:app_music/shared/constants/app_color.dart';
 import 'package:flutter/material.dart';
-import 'package:music_app/shared/const/app_color.dart';
 
 final darkTheme = ThemeData(
   useMaterial3: true,

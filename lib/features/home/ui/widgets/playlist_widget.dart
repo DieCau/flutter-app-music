@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
-import 'package:music_app/features/home/ui/bloc/home/home_bloc.dart';
-import 'package:music_app/features/playslist/ui/screen/playslist_screen.dart';
-import 'package:music_app/shared/widgets/linear_loading_widget.dart';
 import 'package:shimmer/shimmer.dart';
+import 'package:go_router/go_router.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:app_music/features/home/ui/bloc/home/home_bloc.dart';
+import 'package:app_music/features/playlist/ui/screen/playlist_screen.dart';
+import 'package:app_music/shared/widgets/linear_loading_widget.dart';
 
 class PlayListhWidget extends StatelessWidget {
   const PlayListhWidget({

@@ -1,6 +1,6 @@
-import 'package:music_app/features/playslist/data/network/datasource/datasource_ntw.dart';
-import 'package:music_app/features/playslist/domain/entities/playlist_entity.dart';
-import 'package:music_app/features/playslist/domain/repositories/playlist_screen_repository.dart';
+import 'package:app_music/features/playlist/data/network/datasource_ntw.dart';
+import 'package:app_music/features/playlist/domain/entities/playlist_entity.dart';
+import 'package:app_music/features/playlist/domain/repositories/playlist_screen_repository.dart';
 
 class PlayListScreenRepositorImpl extends PlaylistScreenRepository {
   final DatasourcePlayListNtwDb datasourcePlayListNtwDb;

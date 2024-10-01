@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:music_app/shared/widgets/linear_loading_widget.dart';
 import 'package:shimmer/shimmer.dart';
+
+import 'package:app_music/shared/widgets/linear_loading_widget.dart';
 
 class SliverListLoadingWidget extends StatelessWidget {
   const SliverListLoadingWidget({

@@ -1,8 +1,8 @@
+import 'package:app_music/features/home/ui/cubit/page/pagenavigation_cubit.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/models/section_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/home/ui/cubit/page/pagenavigation_cubit.dart';
-import 'package:music_app/shared/const/app_color.dart';
-import 'package:music_app/shared/models/section_model.dart';
 
 class CategoryWidget extends StatelessWidget {
   const CategoryWidget({

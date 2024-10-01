@@ -1,16 +1,16 @@
 import 'dart:io';
-
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:music_app/features/home/domain/entites/favority_entity/your_favorite_music_entity.dart';
-import 'package:music_app/features/home/ui/bloc/favorite_music/favorite_music_bloc.dart';
-import 'package:music_app/shared/const/app_color.dart';
-import 'package:music_app/shared/const/svg_icon.dart';
-import 'package:music_app/shared/entity_global/track_global_entity.dart';
-import 'package:music_app/shared/widgets/linear_loading_widget.dart';
 import 'package:shimmer/shimmer.dart';
+
+import 'package:app_music/features/home/domain/entities/favority_entity/your_favorite_music_entity.dart';
+import 'package:app_music/features/home/ui/bloc/favorite_music/favorite_music_bloc.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/constants/svg_icons.dart';
+import 'package:app_music/shared/entity_global/track_global_entity.dart';
+import 'package:app_music/shared/widgets/linear_loading_widget.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class ItemMusicWidget extends StatelessWidget {
   const ItemMusicWidget({

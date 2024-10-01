@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:music_app/features/playslist/ui/bloc/play_list/playlist_bloc.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/const/svg_icon.dart';
-import 'package:music_app/shared/widgets/circle_loading_widget.dart';
-import 'package:music_app/shared/widgets/linear_loading_widget.dart';
 import 'package:shimmer/shimmer.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:app_music/features/playlist/ui/bloc/play_list/playlist_bloc.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/constants/svg_icons.dart';
+import 'package:app_music/shared/widgets/circle_loading_widget.dart';
+import 'package:app_music/shared/widgets/linear_loading_widget.dart';
 
 class SliverAppbarWidget extends StatelessWidget {
   const SliverAppbarWidget({

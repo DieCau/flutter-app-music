@@ -1,9 +1,9 @@
 import 'dart:async';
-
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:app_music/features/playlist/domain/entities/playlist_entity.dart';
 import 'package:equatable/equatable.dart';
-import 'package:music_app/features/playslist/domain/entities/playlist_entity.dart';
-import 'package:music_app/features/playslist/domain/repositories/playlist_screen_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:app_music/features/playlist/domain/repositories/playlist_screen_repository.dart';
 
 part 'playlist_event.dart';
 part 'playlist_state.dart';
