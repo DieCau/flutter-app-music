@@ -1,10 +1,10 @@
+import 'package:app_music/features/home/domain/entities/search_entity/search_home_search_entity.dart';
+import 'package:app_music/features/home/ui/bloc/search/search_bloc.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/entity_global/track_global_entity.dart';
+import 'package:app_music/shared/widgets/item_music_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:music_app/features/home/domain/entites/search_entity/search_home_search_entity.dart';
-import 'package:music_app/features/home/ui/bloc/search/search_bloc.dart';
-import 'package:music_app/shared/bloc/player/player_bloc.dart';
-import 'package:music_app/shared/entity_global/track_global_entity.dart';
-import 'package:music_app/shared/widgets/item_music_widget.dart';
 
 class CustomSearch extends SearchDelegate {
   @override

@@ -1,3 +1,12 @@
+import 'package:app_music/features/home/ui/bloc/home/home_bloc.dart';
+import 'package:app_music/features/home/ui/cubit/page/pagenavigation_cubit.dart';
+import 'package:app_music/features/home/ui/page/download_page.dart';
+import 'package:app_music/features/home/ui/page/recent_page.dart';
+import 'package:app_music/features/home/ui/widgets/appbar_home_widget.dart';
+import 'package:app_music/features/home/ui/widgets/category_widget.dart';
+import 'package:app_music/shared/bloc/player/player_bloc.dart';
+import 'package:app_music/shared/constants/app_color.dart';
+import 'package:app_music/shared/widgets/mini_reproductor_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:music_app/features/home/data/network/datasource/datasource_ntw.dart';
