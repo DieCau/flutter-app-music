@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
 import 'package:go_router/go_router.dart';
-import 'package:music_app/features/home/ui/screen/home_screen.dart';
-import 'package:music_app/shared/const/app_color.dart';
+
+import 'package:app_music/shared/constants/app_color.dart';
 
 class SplashScreen extends StatelessWidget {
   static const name = "/";
