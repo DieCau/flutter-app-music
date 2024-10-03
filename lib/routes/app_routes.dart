@@ -7,6 +7,7 @@ import 'package:app_music/features/splash/ui/splash_screen.dart';
 
 final appRoutes = GoRouter(
   initialLocation: '/',
+  // Rutas del archivo
   routes: [
     GoRoute(
       path: SplashScreen.name,
